@@ -1,13 +1,14 @@
 package schoolManagement;
-class Fee {
+public class Fee {
     private double amount;
     private String status = "Pending";
 
-    public void payFee(double amount){
+    public void payFee(double amount) {
         this.amount = amount;
-        this.status= "Paid";
+        this.status = "Paid";
     }
-    public String getStatus(){
+
+    public String getStatus() {
         return status;
     }
 }
