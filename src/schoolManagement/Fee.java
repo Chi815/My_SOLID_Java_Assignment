@@ -8,6 +8,10 @@ public class Fee {
         this.status = "Paid";
     }
 
+    public double getAmount() {
+    return amount;
+}
+
     public String getStatus() {
         return status;
     }
